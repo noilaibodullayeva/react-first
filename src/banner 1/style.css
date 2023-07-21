@@ -1,0 +1,79 @@
+.banner1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 600px;
+}
+
+.banner1 img{
+    width: 450px ;
+    height: 300px;
+    border: 5px solid #eee;
+    box-shadow: 1px 2px 3px 4px #eee;
+    float: left;
+}
+
+.banner1_btn button{
+    padding: 3px 5px !important;
+    margin-top: 10px !important;
+}
+
+.banner1_btn h1{
+    color: black;
+    font-size: 50px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+
+}
+
+@media (max-width: 900px) {
+    .banner1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        height: 600px;
+    }
+}
+@media (max-width: 600px) {
+    .banner1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        height: 700px;
+    }
+    .banner1_btn h1 {
+        font-size: 40px !important;
+        padding-left: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .banner1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        height: 800px;
+    }
+    .banner1 img{
+        width: 350px ;
+        height: 200px;
+        border: 5px solid #eee;
+        box-shadow: 1px 2px 3px 4px #eee;
+        margin-top: -100px !important;
+    }
+    .banner1_btn h1 {
+        font-size: 35px !important;
+        margin-left: 30px !important;
+        margin-top: -290px !important;
+    }
+    .banner1_btn button{
+        margin-left: 30px !important;
+    }
+}
